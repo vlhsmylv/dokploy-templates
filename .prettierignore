@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Docker files (they have specific formatting)
+docker-compose.yml
+Dockerfile*
+
+# YAML files (they have specific indentation)
+*.yml
+*.yaml
+
+# Markdown files (they have specific formatting)
+*.md
+
+# Binary files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ico
+
+# Lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml 
